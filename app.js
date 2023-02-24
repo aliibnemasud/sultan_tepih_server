@@ -11,7 +11,9 @@ app.use(express.json());
 
 app.use('/', productRoutes)
 
-
+app.get('/user', async(req, res)=> {
+  res.send({user: 'Ali Ibne Masud'})
+})
 
 
 app.get("/", (req, res) => {

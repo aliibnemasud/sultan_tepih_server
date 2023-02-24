@@ -5,9 +5,9 @@ const colors = require("colors");
 const mongoose = require('mongoose');
 
 
-mongoose.connect(process.env.DATABASE).then(()=> {
+/* mongoose.connect(process.env.DATABASE).then(()=> {
   console.log(`Database connection is successfully`.yellow.bold)
-});
+}); */
 
 app.listen(port, () => {
   console.log(`Sultan Tepih Server Running on port ${port}`.red.bold);
