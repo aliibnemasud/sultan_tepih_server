@@ -45,8 +45,8 @@ router.route("/message")
         status: "Success!",
         message: "Message send Successfully!",
         data: req.body,
-      });     
-
+      });
+      
     } catch (error) {
       res.status(400).send({
         status: "Field!",
