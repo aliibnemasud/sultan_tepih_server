@@ -5,12 +5,8 @@ const cors = require("cors");
 const productRoutes = require('./routes/v1/product.route');
 const messageRoutes = require("./routes/v1/message.route");
 
-
-
 app.use(cors());
 app.use(express.json());
-
-
 
 // product routes
 
